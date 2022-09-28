@@ -21,7 +21,7 @@ ________________________________________________________________________________
   - Precision: 
   - Recall: 
 
-!()[]
+![]()
 
 - SMOTE
 
@@ -29,7 +29,7 @@ ________________________________________________________________________________
   - Precision: 
   - Recall: 
 
-!()[]
+![]()
 
 - RandomUnderSampler 
 
@@ -37,7 +37,7 @@ ________________________________________________________________________________
   - Precision: 
   - Recall: 
 
-!()[]
+![]()
 
 - SMOTEENN 
 
@@ -45,7 +45,7 @@ ________________________________________________________________________________
   - Precision: 
   - Recall: 
 
-!()[]
+![]()
 
 - BalancedRandomForestClassifier 
 
@@ -53,7 +53,7 @@ ________________________________________________________________________________
   - Precision: 
   - Recall: 
 
-!(test)[https://github.com/jmalauss/Credit_Risk_Analysis/blob/main/Resources/BalancedRandomForestClassifier.png]
+![]()
 
 - EasyEnsembleClassifier 
 
@@ -62,6 +62,6 @@ ________________________________________________________________________________
   - Precision: 
   - Recall: 
 
-!()[]
+![]()
 
 ## Recommendation on which model to use, (or there is no recommendation with a justification):
