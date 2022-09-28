@@ -56,4 +56,4 @@ This model has a perfect accuracy score, precision and recall scores. If there a
 
 ## Recommendation on which model to use, (or there is no recommendation with a justification):
 
-After completing the analysis, it seems that EasyEnsembleClassifier is the best algorithm to use for our model. 
+After completing the analysis, it seems that EasyEnsembleClassifier is the best algorithm to use for our model. We are trying to ask: How good is each model at predicting credit risk? When we take a look at the confusion matrix, we can see that there were 101 correct predictions for high-risk loans, and 17,104 correct predictions of low-risk credit loans. According to the metrics, there were zero errors in prediction from this model. The reason may be that the model was trained and then evaluated. After the model evaluates, it pays more attention to the incorrect predictions to correct them for further training. We can assume the model performed enough time to eliminate the incorrect predictions. This may also mean that the model has enough or good quality data to use for training.
