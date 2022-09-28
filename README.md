@@ -10,6 +10,9 @@
 - Precision, also known as positive predictive value (PPV), is a measure of this. Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). Precision = TP/(TP + FP)
 - Recall: How likely is it that the test will diagnose it? Sensitivity = TP/(TP + FN)
 
+_______________________________________________________________________________________________________________________________________________________________________
+## Algorithms
+
 - RandomOverSampler 
   - Accuracy Score: 
   - Precision: 
