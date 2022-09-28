@@ -26,43 +26,34 @@ This algorithm's performance is accurate according to the accuracy of approximat
 
 - SMOTE
 
-  - Accuracy Score: 
-  - Precision: 
-  - Recall: 
+The accuracy score indicates that the SMOTE algorithm may result in a model that is less accurate at approximately 64.2%. This model is much better at predicting low-risk loans in terms of precision, and poor at high-risk loans. For both low and high-risk loans, it is about the same likeliness that the prediction is correct: 61% and 67%. 
 
 ![SMOTE](https://github.com/jmalauss/Credit_Risk_Analysis/blob/main/Resources/SMOTE.png)
 
 - RandomUnderSampler 
 
-  - Accuracy Score: 
-  - Precision: 
-  - Recall: 
+This model is accurate 64.2% of the time. It is also precise in predicting low-risk loans, similar to the two models above. There is a minor difference between the sensitivity of the low and high-risk loans predicted by this model, neither are very strong indicators of a high-performing model.
 
 ![RandomUnderSampler](https://github.com/jmalauss/Credit_Risk_Analysis/blob/main/Resources/RandomUnderSampler.png)
 
 - SMOTEENN 
 
-  - Accuracy Score: 
-  - Precision: 
-  - Recall: 
+This model is accurate about 57.9% of the time. Also very precise in predictions about low-risk loans. Although, this model may be more likely to predict high-risk loans than the models preceeding it.
 
 ![SMOTEENN](https://github.com/jmalauss/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN.png)
 
 - BalancedRandomForestClassifier
 
-  - Accuracy Score: 
-  - Precision: 
-  - Recall: 
+The accuracy score tells us that the model is accurate about 99.9% of the time. Since this may not be useful, we can look at the other metrics to determine the efficacy of this model. This model is the most precise in low and high-risk loan predictions. So far, our most helpful model.
 
 ![BalancedRandomForestClassifier](https://github.com/jmalauss/Credit_Risk_Analysis/blob/main/Resources/BalancedRandomForestClassifier.png)
 
 - EasyEnsembleClassifier 
 
-
-  - Accuracy Score: 
-  - Precision: 
-  - Recall: 
+This model has a perfect accuracy score, precision and recall scores. If there are no errors in the code, this is our best model.
 
 ![EasyEnsembleClassifier](https://github.com/jmalauss/Credit_Risk_Analysis/blob/main/Resources/EasyEnsembleClassifier.png)
 
 ## Recommendation on which model to use, (or there is no recommendation with a justification):
+
+After completing the analysis, it seems that EasyEnsembleClassifier is the best algorithm to use for our model. 
