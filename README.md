@@ -6,11 +6,56 @@
 
 ## Describe the balanced accuracy score and the precision and recall scores of all six machine learning models:
 
-- RandomOverSampler - 0.9941296134844522
-- SMOTE - 0.6420277463901676
-- RandomUnderSampler - 0.6420277463901676
-- SMOTEENN - 0.5794568348322204
-- BalancedRandomForestClassifier - 0.9996784377923293
-- EasyEnsembleClassifier - 1.0
+- Accurary Score: assess a model with discrete outcomes. not always an appropriate or a meaningful performance metric, however.
+- Precision, also known as positive predictive value (PPV), is a measure of this. Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). Precision = TP/(TP + FP)
+- Recall: How likely is it that the test will diagnose it? Sensitivity = TP/(TP + FN)
 
-Recommendation on which model to use, (or there is no recommendation with a justification):
+- RandomOverSampler 
+  - Accuracy Score: 
+  - Precision: 
+  - Recall: 
+
+!()[]
+
+- SMOTE
+
+  - Accuracy Score: 
+  - Precision: 
+  - Recall: 
+
+!()[]
+
+- RandomUnderSampler 
+
+  - Accuracy Score: 
+  - Precision: 
+  - Recall: 
+
+!()[]
+
+- SMOTEENN 
+
+  - Accuracy Score: 
+  - Precision: 
+  - Recall: 
+
+!()[]
+
+- BalancedRandomForestClassifier 
+
+  - Accuracy Score: 
+  - Precision: 
+  - Recall: 
+
+!()[]
+
+- EasyEnsembleClassifier 
+
+
+  - Accuracy Score: 
+  - Precision: 
+  - Recall: 
+
+!()[]
+
+## Recommendation on which model to use, (or there is no recommendation with a justification):
