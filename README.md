@@ -19,9 +19,8 @@ ________________________________________________________________________________
 ## Algorithms
 
 - RandomOverSampler
-  - Accuracy Score: 
-  - Precision: 
-  - Recall: 
+
+This algorithm's performance is accurate according to the accuracy of approximately 99.4%. In other words, the model may result in a small difference between the test and training variables. Given the amount of low-risk loans, the model is more precise in predicting low-risk loans versus high-risk loans according to the precision score in the classification report. It is very likely that the model will predict low-risk loans, and less likely that it will predict high-risk loans.
 
 ![RandomOverSampler](https://github.com/jmalauss/Credit_Risk_Analysis/blob/main/Resources/RandomOverSampler.png)
 
