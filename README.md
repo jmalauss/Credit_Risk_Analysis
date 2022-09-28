@@ -53,7 +53,7 @@ ________________________________________________________________________________
   - Precision: 
   - Recall: 
 
-!()[]
+!(test)[https://github.com/jmalauss/Credit_Risk_Analysis/blob/main/Resources/BalancedRandomForestClassifier.png]
 
 - EasyEnsembleClassifier 
 
